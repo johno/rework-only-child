@@ -2,8 +2,28 @@
 
 [![Build Status](https://secure.travis-ci.org/johnotander/rework-only-child.png?branch=master)](https://travis-ci.org/johnotander/rework-only-child)
 
-A [rework](https://github.com/reworkcss) implementation of the :only-child pseudo-selector based off
+A [rework](https://github.com/reworkcss) implementation of the
+[:only-child]([CSS Selectors Level 4](http://dev.w3.org/csswg/selectors-4/#only-child-pseudo)
+pseudo-class selector based off
 [CSS Selectors Level 4](http://dev.w3.org/csswg/selectors-4/#only-child-pseudo).
+
+This will convert:
+
+```css
+.some-class,
+.some-other-class:only-child {
+  color: blue;
+}
+```
+
+To the currently compatible equivalent:
+
+```css
+.some-class,
+.some-other-class:first-child:last-child {
+  color: blue;
+}
+```
 
 ## Installation
 
@@ -14,7 +34,12 @@ npm install --save rework-only-child
 ## Usage
 
 ```javascript
-// ...
+var fs       = require('fs');
+var rework   = require('rework');
+var onlyChild = require('rework-only-child');
+
+var css = fs.readFileSync('css/my-file.css', 'utf8').toString();
+var out = rework(css).use(onlyChild()).toString();
 ```
 
 ## License
