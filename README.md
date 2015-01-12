@@ -7,7 +7,7 @@ A [rework](https://github.com/reworkcss) implementation of the
 pseudo-class selector based off
 [CSS Selectors Level 4](http://dev.w3.org/csswg/selectors-4/#only-child-pseudo).
 
-This will convert:
+This will convert the `:only-child` pseudo-class selector:
 
 ```css
 .some-class,
