@@ -2,3 +2,7 @@
 .some-other-class:first-child:last-child {
   color: blue;
 }
+
+.some:first-child:last-child .nested:first-child:last-child > :first-child:last-child {
+  color: green;
+}

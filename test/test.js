@@ -7,7 +7,7 @@ describe('rework-only-child', function() {
 
   it('correctly convert :only-child to :first-child:last-child', function() {
     var output = rework(fixture('only-child.css')).use(reworkOnlyChild()).toString().trim();
-    var expected = fixture('only-child.expected.expected');
+    var expected = fixture('only-child.expected.css');
 
     assert.equal(output, expected);
   });

@@ -2,3 +2,7 @@
 .some-other-class:only-child {
   color: blue;
 }
+
+.some:only-child .nested:only-child > :only-child {
+  color: green;
+}
