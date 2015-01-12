@@ -1,0 +1,4 @@
+.some-class,
+.some-other-class:first-child:last-child {
+  color: blue;
+}

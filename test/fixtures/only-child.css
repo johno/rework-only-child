@@ -1,0 +1,4 @@
+.some-class,
+.some-other-class:only-child {
+  color: blue;
+}
