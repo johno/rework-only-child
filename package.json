@@ -1,0 +1,29 @@
+{
+  "name": "rework-only-child",
+  "description": "A rework implementation of the :only-child pseudo-selector based off CSS Selectors Level 4.",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/rework-only-child.git"
+  },
+  "keywords": [
+
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/rework-only-child/issues"
+  },
+  "homepage": "https://github.com/johnotander/rework-only-child",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
