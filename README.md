@@ -3,7 +3,7 @@
 [![Build Status](https://secure.travis-ci.org/johnotander/rework-only-child.png?branch=master)](https://travis-ci.org/johnotander/rework-only-child)
 
 A [rework](https://github.com/reworkcss) implementation of the
-[:only-child]([CSS Selectors Level 4](http://dev.w3.org/csswg/selectors-4/#only-child-pseudo)
+[:only-child](http://dev.w3.org/csswg/selectors-4/#only-child-pseudo)
 pseudo-class selector based off
 [CSS Selectors Level 4](http://dev.w3.org/csswg/selectors-4/#only-child-pseudo).
 
