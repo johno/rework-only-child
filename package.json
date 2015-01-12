@@ -14,7 +14,15 @@
     "type": "git",
     "url": "https://github.com/johnotander/rework-only-child.git"
   },
-  "keywords": [],
+  "keywords": [
+    "rework",
+    "rework-plugin",
+    "only-child",
+    "pseudo-class",
+    "css4",
+    "first-child",
+    "last-child"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/johnotander/rework-only-child/issues"
